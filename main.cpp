@@ -13,7 +13,9 @@ int main() {
 
     //t.setTokens((char *) "big flood\napple pie\nApple , Fiona\nbanana bunch\ncherry pie\n123 pilots Pilots\ngoat herder\ndog trainer's coat");
     //t.setTokens((char *) "a\nA\nb\nB\nC\nD\nc\nd");
-    t.setTokens((char *) "aAa AaA\nAAA aaa\nAaA aAa\naaa AAA\nC\nD\nc\nd");
+    //t.setTokens((char *) "aAa AaA\nAAA aaa\nAaA aAa\naaa AAA\nC\nD\nc\nd");
+
+    t.setTokens((char *)"my country 'tis of thee\nsweet land of liberty\nof thee I sing");
     v.push_back(t);
 
     Filter *p = new Parse;

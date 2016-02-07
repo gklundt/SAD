@@ -4,8 +4,6 @@ using namespace std;
 
 vector<TokenBag> Sort::Process(vector<TokenBag> tokens) {
 
-    cout << "entering filter" << endl;
-
     vector<TokenBag> ret;
 
     bNode *root = new bNode;
