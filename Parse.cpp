@@ -17,7 +17,7 @@ vector<TokenBag> Parse::Process(vector<TokenBag> tokens) {
             if (n[pos] == '\n' || n[pos] == '\r' || n[pos] == '\0') {
 
                 char *copy = new char[(pos - start_pos) + 1];
-                memcpy(copy, &n[start_pos], pos - start_pos);
+                memcpy(copy, &n[start_pos], (size_t) (pos - start_pos));
                 copy[(pos - start_pos)] = '\0';
 
                 TokenBag *tb = new TokenBag;
