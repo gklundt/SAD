@@ -26,3 +26,8 @@
 *.exe
 *.out
 *.app
+
+#Netbeans
+/.idea
+CMakeLists.txt
+
