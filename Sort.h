@@ -15,6 +15,8 @@ private:
         bNode *right = 0;
     };
 
+    bNode *root = new bNode;
+
     void FillBtree(bNode *, TokenBag *);
 
     void Traverse(bNode *parent, vector<TokenBag> &ret);
