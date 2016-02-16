@@ -6,7 +6,6 @@ vector<TokenBag> Sort::Process(vector<TokenBag> tokens) {
 
     vector<TokenBag> ret;
 
-    bNode *root = new bNode;
     root->data = &tokens[0];
 
     for (int i = 1; i < tokens.size(); ++i) {
