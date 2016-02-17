@@ -1,4 +1,3 @@
-#include <windows.h>
 #include <iostream>
 #include "Filter.h"
 #include "Parse.h"
