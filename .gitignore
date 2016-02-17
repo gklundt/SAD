@@ -28,6 +28,6 @@
 *.app
 
 #Netbeans
-/.idea
+**/.idea/
 CMakeLists.txt
 
